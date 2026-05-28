@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Image binaries — keep folder structure (_sources.csv, README) but
+# don't commit the photos themselves to GitHub. The dataset is delivered
+# separately as part of the submission package.
+dataset/raw/**/*.jpg
+dataset/raw/**/*.jpeg
+dataset/raw/**/*.png
+dataset/raw/**/*.webp
+dataset/raw/**/*.bmp
+dataset/processed/**/*.jpg
+dataset/processed/**/*.jpeg
+dataset/processed/**/*.png
+dataset/_rejected/**/*.jpg
+dataset/_rejected/**/*.jpeg
+dataset/_rejected/**/*.png
+dataset/_rejected/**/*.webp
+dataset/_rejected/**/*.bmp
+
+# Model / output binaries
+models/*.pkl
+outputs/*.csv
