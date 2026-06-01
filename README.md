@@ -24,8 +24,15 @@ docs/              collection guide, presentation drafts
 ## Phase 1 quickstart (current phase)
 
 1. Read [docs/T1_1_collection_guide.md](docs/T1_1_collection_guide.md) before downloading any image.
-2. Save raw images into `dataset/raw/<NN_FRANCHISE>/` and log every download in that folder's `_sources.csv`.
-3. Validate the batch:
+2. Download with the helper — it names the file, validates ≥800×600 native, and logs to `_sources.csv`:
+   ```
+   # one URL
+   python src/phase1_dataset/add_image.py 01_CSK https://example.com/a.jpg --note "post-match vs RCB"
+
+   # batch (one URL per line; blank lines and # comments allowed)
+   python src/phase1_dataset/add_image.py 01_CSK --batch urls_csk.txt
+   ```
+3. Sanity-check the batch (catches anything added outside the helper):
    ```
    python src/phase1_dataset/validate_images.py            # report only
    python src/phase1_dataset/validate_images.py --apply    # move rejects

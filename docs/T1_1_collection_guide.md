@@ -1,10 +1,10 @@
 # T1.1 — Image Collection Guide (IPL Season 18, 2025)
 
-This file is the **single source of truth** for how the team collects raw images for the dataset. Every team member should read this before downloading any image.
+This file is the **single source of truth** for how raw images are collected for the dataset. Read this before downloading any image.
 
 ## Scope (locked decisions)
 
-- **Season:** IPL 18 — **2025 season only.** Reject any image from a prior season (jersey designs change year-to-year, FAQ Q4).
+- **Season:** IPL 18 — **2025 season only.** Reject any image from a prior or later season (jersey designs change year-to-year, FAQ Q4). Re-locked to 2025 on 2026-05-29 after Group 19 (Tushita / Arijit) shared 140+ pre-labelled images from the 2025 SRHvsDC match. The 12 CSK 2026 images collected before the pivot are archived under `dataset/_archived/2026_pivot/`.
 - **Target counts:** ≥100 images per franchise × 10 franchises + a "no-team" bucket (empty pitch, crowd, stadium, logos with no jersey visible) for class 0. Aim for **120+ per franchise** so we can discard some during validation.
 - **Aspect / resolution rule (spec):** Only collect images whose native resolution is **≥ 800×600**. Lower-resolution images **must not** be upscaled — they are unusable.
 

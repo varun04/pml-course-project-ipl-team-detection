@@ -1,0 +1,19 @@
+{
+  "winner": "rf",
+  "results": {
+    "logreg": {
+      "macro_f1": 0.39480075813513354,
+      "fit_seconds": 3.1
+    },
+    "svm": {
+      "macro_f1": 0.5084261301705294,
+      "fit_seconds": 15.4
+    },
+    "rf": {
+      "macro_f1": 0.5316645718416131,
+      "fit_seconds": 10.7
+    }
+  },
+  "n_train": 156928,
+  "n_test": 17408
+}

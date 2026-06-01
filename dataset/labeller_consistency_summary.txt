@@ -1,0 +1,6 @@
+groups queried        : 24
+images labelled by 2+ : 0
+pair-image rows       : 0
+mean agreement (cells/64): 0.00%
+
+Per-pair overlap counts (only pairs with overlap):
