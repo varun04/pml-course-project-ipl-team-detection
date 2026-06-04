@@ -1,1 +1,0 @@
-line 161: duplicate image 'SRHvsDC_image_156.jpg' (first seen at line 3) — kept first, skipped this

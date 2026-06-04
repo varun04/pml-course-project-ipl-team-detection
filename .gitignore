@@ -34,3 +34,11 @@ dataset/_rejected/**/*.bmp
 # Model / output binaries
 models/*.pkl
 outputs/*.csv
+
+# Generated feature arrays (>100MB) — reproduce with: python src/phase3/build_dataset.py
+dataset/features/X.npy
+dataset/features/y.npy
+dataset/features/cell_idx.npy
+dataset/features/image_idx.npy
+dataset/features/image_names.npy
+dataset/features/split.npy

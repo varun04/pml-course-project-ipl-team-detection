@@ -1,19 +1,29 @@
 {
-  "winner": "rf",
+  "winner": "lgbm",
   "results": {
     "logreg": {
-      "macro_f1": 0.39480075813513354,
-      "fit_seconds": 3.1
+      "macro_f1": 0.39404900735592663,
+      "fit_seconds": 3.93
     },
     "svm": {
-      "macro_f1": 0.5084261301705294,
-      "fit_seconds": 15.4
+      "macro_f1": 0.5032074951088171,
+      "fit_seconds": 88.71
     },
     "rf": {
-      "macro_f1": 0.5316645718416131,
-      "fit_seconds": 10.7
+      "macro_f1": 0.6344868997884373,
+      "macro_f1_raw": 0.5455443274336269,
+      "fit_seconds": 20.12
+    },
+    "lgbm": {
+      "macro_f1": 0.711889557010934,
+      "macro_f1_tuned": 0.6945786025117447,
+      "macro_f1_raw": 0.690377065335673,
+      "smoothing_alpha": 0.3,
+      "fit_seconds": 75.75,
+      "macro_f1_stage2": 0.711889557010934
     }
   },
-  "n_train": 156928,
-  "n_test": 17408
+  "n_train": 108536,
+  "n_cal": 41536,
+  "n_test": 23040
 }

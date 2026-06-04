@@ -1,6 +1,6 @@
 """T3.4 — Evaluate the saved model on held-out images.
 
-Loads models/model_group_18_varun.pkl, scores it on the test split, and
+Loads models/model_ipl_jersey_prediction_varun.pkl, scores it on the test split, and
 produces:
 
   outputs/phase3_classification_report.csv  per-class precision / recall / F1
@@ -60,11 +60,11 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     # The deliverable
-    payload = joblib.load(MODEL_DIR / "model_group_18_varun.pkl")
+    payload = joblib.load(MODEL_DIR / "model_ipl_jersey_prediction_varun.pkl")
     winner = payload["model_name"]
     print(f"deliverable winner: {winner}")
 
-    y_pred = predict(MODEL_DIR / "model_group_18_varun.pkl", X_test)
+    y_pred = predict(MODEL_DIR / "model_ipl_jersey_prediction_varun.pkl", X_test)
 
     # Classification report
     report = classification_report(y_test, y_pred, output_dict=True, zero_division=0,
