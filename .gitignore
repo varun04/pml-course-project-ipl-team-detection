@@ -42,3 +42,7 @@ dataset/features/cell_idx.npy
 dataset/features/image_idx.npy
 dataset/features/image_names.npy
 dataset/features/split.npy
+
+# Train/test split image folders — large binary files, generated from processed/
+dataset/train/
+dataset/test/

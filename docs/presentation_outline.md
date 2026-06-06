@@ -36,7 +36,7 @@ e-PGDiploma in AI & DS — January 2026 Cohort
 - No CNNs allowed — hand-crafted features only
 
 **Right column — What we built:**
-- 3,605 labelled images across 44 match scenarios
+- 3,605 labelled images across 36 match scenarios
 - 194 hand-crafted features per cell (HOG, colour, texture)
 - Two-stage LightGBM pipeline with spatial context
 - Player detection via connected-component analysis
@@ -57,7 +57,7 @@ e-PGDiploma in AI & DS — January 2026 Cohort
 **Table:**
 | Metric | Value |
 |--------|-------|
-| Dataset | 3,605 images, 44 match scenarios, 10 IPL teams |
+| Dataset | 3,605 images, 36 match scenarios, 10 IPL teams |
 | Features | 194 hand-crafted (no CNN) |
 | Best model | Two-stage LightGBM |
 | Macro-F1 (test) | **0.711** (360 held-out images) |

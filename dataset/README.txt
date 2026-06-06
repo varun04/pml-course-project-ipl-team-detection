@@ -112,7 +112,7 @@ Match scenarios (44 total)
                                             SRHvsPBKS  :  147
                                             SRHvsRR    :   72
   ------------------------------------------------------------------
-  TOTAL: 3,605 images across 44 match scenarios
+  TOTAL: 3,605 images across 36 match scenarios
 
 
 Labelling methodology
