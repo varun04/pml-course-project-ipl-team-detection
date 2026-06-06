@@ -1,5 +1,5 @@
 # Presentation Outline — IPL Jersey Team Detection
-## Group 18 | PML Course Project | June 2026
+## Group 32 | PML Course Project | June 2026
 
 ---
 
@@ -7,7 +7,7 @@
 
 **Title:** Automated Detection of IPL Teams Using Jersey Identification
 
-**Subtitle:** PML Course Project — Group 18
+**Subtitle:** PML Course Project — Group 32
 
 | Name | Roll Number |
 |------|-------------|

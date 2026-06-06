@@ -4,7 +4,7 @@ IPL Jersey Identification — Dataset README
 Course      : Programming for Machine Learning and Data Science (PMLDS)
 Programme   : e-PGDiploma in AI & DS — January 2026 cohort
 Institution : Centre for Machine Intelligence & Data Science, IIT Bombay
-Group       : Group 18 — Varun Tomar
+Group       : Group 32 — Varun Tomar
 Season used : IPL Season 18 (2025) — single season, per FAQ Q4
 
 

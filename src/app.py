@@ -148,7 +148,7 @@ def predict(input_image: np.ndarray) -> tuple[np.ndarray, str]:
 with gr.Blocks(title="IPL Team Detection") as demo:
     gr.Markdown("""
     # 🏏 IPL Team Detection — Interactive Demo
-    **Group 18 | PML Course Project | IIT Bombay 2026**
+    **Group 32 | PML Course Project | IIT Bombay 2026**
 
     Upload any IPL 2025 broadcast image (any size). The model will:
     1. Resize it to 800×600 and apply an 8×8 grid

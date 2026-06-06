@@ -58,7 +58,7 @@ API_BASE = "https://3dixfexeg3.execute-api.ap-south-1.amazonaws.com"
 S3_BASE = "https://ipl2026-labeller-051024.s3.ap-south-1.amazonaws.com/images"
 MASTER_URL = f"{API_BASE}/master"
 TIMEOUT = 30
-USER_AGENT = "Mozilla/5.0 (pml-ipl-team-detection/group_18_varun)"
+USER_AGENT = "Mozilla/5.0 (pml-ipl-team-detection/group_32_varun)"
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATASET_DIR = REPO_ROOT / "dataset"
